@@ -1,0 +1,135 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #FFF8E7;
+    font-family: 'Lato', sans-serif;;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Playfair Display', serif;
+}
+
+#RS-flag{
+    border: 5px solid #EADFCB;
+    transform: translateY(-50px);
+    width: 200px;
+}
+
+#RS-special{
+    font-size: x-large;
+    color: #A52A2A;
+    transform: translateY(-80px);
+    text-decoration: underline;
+    text-decoration-color: #F4C542;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 8px;
+}
+
+.activity img{
+    width: 150px;
+    height: 150px;
+    border: 5px solid  #EADFCB;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+
+
+.activity{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: small;
+    flex: 1;
+    gap: 10px;
+    min-width: 0;
+    min-height: 60px;
+    margin: 0;
+}
+
+.activity p{
+    max-width: 280px;
+    margin: 0;
+    line-height: 1.5
+}
+
+.activity h3{
+    color: #176B45
+}
+
+.activity-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+
+.title{
+    background-size: cover;
+    background-position: center;
+    padding: 80px;
+}
+
+
+h1{
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    border: 2px solid #EADFCB;
+    border-radius: 10px;
+    background-color: #176B45;
+    color: #F4C542;
+    padding: 10px ;
+    transform: translateY(-30px);
+    margin: 5px auto;
+}
+
+
+.guide-card{
+    background-color: #176B45;
+    color: white;
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 450px;
+    margin: 40px auto;
+    box-sizing: border-box;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.guide-card h3 {
+    color: #F4C542;
+    font-size: 26px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.guide-card p {
+    font-style: italic;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.guide-card h4 {
+    border-top: 2px solid #F4C542;
+    padding-top: 15px;
+    margin-bottom: 0;
+}
+
+.guide-card:hover{
+    transform: translateY(-5px);
+}
