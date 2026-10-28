@@ -1,19 +1,32 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+   # Hometown Homepage — Rio Grande do Sul
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+## Project Overview
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could go further with one of our advanced courses 🚀
+A website showcasing the culture, traditions, and attractions of Rio Grande do Sul, my home state in Southern Brazil 
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## Technologies Used
 
-Happy Coding!
+- HTML5
+- CSS3
+- CSS Flexbox
+
+  I used HTML5 to structure the website and CSS3 to style its layout and visual elements.
+
+## Features
+
+- Custom-designed homepage
+- Image cards highlighting local attractions and traditions
+- CSS hover effects for interactive visual feedback
+
+## Live Demo
+  
+[View Live Website](https://hometown-rs.netlify.app/)
+
+## What I learned
+
+- Organizing HTML elements using classes and IDs.
+- Using CSS Flexbox to create layouts and align elements.
+- Styling images with CSS.
+- Styling containers using borders, padding, and margins.
+- Creating hover effects to improve visual interaction.
+- Using different font families to improve typography.  
